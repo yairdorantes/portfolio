@@ -1,16 +1,15 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import video from "../media/video.mp4";
 import { useRef } from "react";
 import { TypeAnimation } from "react-type-animation";
-const skills = ["Python", "Linux", "Javascript"];
 const time = 1200;
 const Main = () => {
-  const [index, setIndex] = useState(0);
-  const [skillName, setSkillName] = useState("");
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    videoRef.current.play();
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
   }, []);
 
   return (

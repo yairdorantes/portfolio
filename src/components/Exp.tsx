@@ -1,6 +1,5 @@
 import { FaStore, FaUserTie } from "react-icons/fa";
 import { IoPeople } from "react-icons/io5";
-import { MdWorkspaces } from "react-icons/md";
 
 const Exp = () => {
   return (

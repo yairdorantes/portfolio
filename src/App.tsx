@@ -1,4 +1,3 @@
-import React from "react";
 import Main from "./components/Main.tsx";
 import Skills from "./components/Skills.tsx";
 import Exp from "./components/Exp.tsx";

@@ -1,4 +1,3 @@
-import { FaPython } from "react-icons/fa";
 import react from "../media/tech-icons/react.svg";
 import html from "../media/tech-icons/html.png";
 import css from "../media/tech-icons/css.png";
@@ -79,7 +78,7 @@ const Skills = () => {
         </div>
         <div className="flex  gap-7 flex-wrap justify-center">
           {skills.map((skill, i) => (
-            <div className="text-center space-y-2 mb-7">
+            <div key={i} className="text-center space-y-2 mb-7">
               <div className="w-28 h-28 flex justify-center items-center rounded-3xl border-2 border-gray-500">
                 <img className="w-16" src={skill.img} alt="" />
               </div>
