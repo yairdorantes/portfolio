@@ -1,7 +1,6 @@
 import { IoMdLock } from "react-icons/io";
 import { MdWorkspaces } from "react-icons/md";
 import ffss from "../media/ss.png";
-import soyeon from "../media/gidle.mp4";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="bg-black  text-white p-4">
