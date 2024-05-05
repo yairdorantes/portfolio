@@ -68,7 +68,7 @@ const Skills = () => {
     },
   ];
   return (
-    <section className="bg-black  text-white p-4">
+    <section id="skills" className="bg-black  text-white p-4">
       <div className="max-w-4xl mx-auto">
         <div className="w-fit flex gap-2 items-center  mb-10 text-sm p-2 border border-gray-600 border-opacity-80 rounded-full">
           <MdWorkspaces /> Habilidades
@@ -78,7 +78,7 @@ const Skills = () => {
         </div>
         <div className="flex  gap-7 flex-wrap justify-center">
           {skills.map((skill, i) => (
-            <div key={i} className="text-center space-y-2 mb-7">
+            <div key={i} className="text-center space-y-2 mb-2">
               <div className="w-28 h-28 flex justify-center items-center rounded-3xl border-2 border-gray-500">
                 <img className="w-16" src={skill.img} alt="" />
               </div>

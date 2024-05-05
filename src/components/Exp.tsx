@@ -3,7 +3,7 @@ import { IoPeople } from "react-icons/io5";
 
 const Exp = () => {
   return (
-    <section className="bg-black  text-white p-4">
+    <section id="exp" className="bg-black  text-white p-4">
       <div className="max-w-4xl mx-auto">
         <div className="w-fit flex gap-2 items-center  mb-10 text-sm p-2 border border-gray-600 border-opacity-80 rounded-full">
           <FaUserTie /> Experiencia
