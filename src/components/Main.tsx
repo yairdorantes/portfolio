@@ -24,12 +24,12 @@ const Main = () => {
       <div className="w-full h-full z-20 bg-opacity-40  absolute top-0 bg-black "></div>
       <div className="p-4 z-30 absolute top-[20%]">
         <div className=" text-white  font-semibold text-5xl">
-          Hola, soy <span className="text-cyan-400">Yair Dorantes</span>
+          Hola, soy <span className="text-[#e5b120]">Yair Dorantes</span>
         </div>
         <div className="text-gray-100 text-lg font-semibold">
-          Desarrolador de Web Fullstack
+          Desarrollador Web Fullstack
         </div>
-        <div className="text-emerald-400 font-semibold">
+        <div className="text-[#30be8a] font-semibold">
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially

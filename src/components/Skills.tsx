@@ -11,6 +11,7 @@ import git from "../media/tech-icons/git.svg";
 import sql from "../media/tech-icons/sql.png";
 import express from "../media/tech-icons/ex.svg";
 import mysql from "../media/tech-icons/database.png";
+import ts from "../media/tech-icons/ts.png";
 import { MdWorkspaces } from "react-icons/md";
 const Skills = () => {
   const skills = [
@@ -29,6 +30,10 @@ const Skills = () => {
     {
       name: "JavaScript",
       img: js,
+    },
+    {
+      name: "TypeScript",
+      img: ts,
     },
     {
       name: "React",
@@ -74,15 +79,15 @@ const Skills = () => {
           <MdWorkspaces /> Habilidades
         </div>
         <div className="text-3xl mb-10">
-          Mis <span className="text-green-500">Habilidades</span>
+          Mis <span className="text-[#e5b120] font-semibold">Habilidades</span>
         </div>
-        <div className="flex  gap-7 flex-wrap justify-center">
+        <div className="flex  gap-7 flex-wrap items-center justify-center">
           {skills.map((skill, i) => (
             <div key={i} className="text-center space-y-2 mb-2">
-              <div className="w-28 h-28 flex justify-center items-center rounded-3xl border-2 border-gray-500">
-                <img className="w-16" src={skill.img} alt="" />
+              <div className="sm:w-28 sm:h-28 w-20 h-20 flex justify-center items-center sm:rounded-3xl rounded-2xl border-2 border-gray-500">
+                <img className="sm:w-16 w-12" src={skill.img} alt="" />
               </div>
-              <div>{skill.name}</div>
+              <div className="text-sm">{skill.name}</div>
             </div>
           ))}
         </div>

@@ -1,24 +1,25 @@
 import { IoMdLock } from "react-icons/io";
-import { MdWorkspaces } from "react-icons/md";
 import ffss from "../media/ss.png";
 import ss2 from "../media/ss2.png";
 import ss3 from "../media/ss3.png";
 import ss4 from "../media/ss4.avif";
-import { FaGithub } from "react-icons/fa";
+import ss5 from "../media/ss5.png";
+import { FaBriefcase, FaGithub } from "react-icons/fa";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="bg-black pb-10  text-white p-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto ">
         <div className="w-fit flex gap-2 items-center  mb-10 text-sm p-2 border border-gray-600 border-opacity-80 rounded-full">
-          <MdWorkspaces /> Portafolio
+          <FaBriefcase />
+          Portafolio
         </div>
         <div className="text-3xl mb-10">
           <span className="text-green-500">Portafolio</span>
         </div>
 
-        <div className="flex flex-wrap gap-5 w-full justify-center">
+        <div className="flex  flex-wrap gap-5 w-full justify-center">
           <div
-            className="bg-cover rounded-2xl min-w-96 max-w-lg h-64 bg-center "
+            className="bg-cover rounded-2xl w-[95%] sm:min-w-96 max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ffss})`,
             }}
@@ -32,9 +33,8 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
           <div
-            className="bg-cover min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss2})`,
             }}
@@ -48,14 +48,13 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
           <div
-            className="bg-cover min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss3})`,
             }}
           >
-            <div className="w-full relative h-full  bg-black bg-opacity-40">
+            <div className="w-full relative h-full  bg-black bg-opacity-20">
               <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
                 <a
                   href="https://github.com/yairdorantes/EnglishApp"
@@ -65,17 +64,17 @@ const Portfolio = () => {
                 </a>
               </div>
               <div className="absolute bottom-2 left-2 ">
-                App para aprendizaje de Ingles
+                App para aprendizaje de Inglés
               </div>
             </div>
           </div>
           <div
-            className="bg-cover min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss4})`,
             }}
           >
-            <div className="w-full relative h-full  bg-black bg-opacity-60">
+            <div className="w-full relative h-full  bg-black bg-opacity-20">
               <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
                 <a href="https://github.com/yairdorantes/Facts" target="_blank">
                   <FaGithub />
@@ -84,6 +83,24 @@ const Portfolio = () => {
               <div className="absolute bottom-2 left-2 ">
                 App de Datos curiosos
               </div>
+            </div>
+          </div>
+          <div
+            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            style={{
+              backgroundImage: `url(${ss5})`,
+            }}
+          >
+            <div className="w-full relative h-full  bg-black bg-opacity-50">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <a
+                  href="https://github.com/yairdorantes/WeatherApp"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </div>
+              <div className="absolute bottom-2 left-2 ">App del clima</div>
             </div>
           </div>
         </div>

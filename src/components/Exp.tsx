@@ -9,44 +9,52 @@ const Exp = () => {
           <FaUserTie /> Experiencia
         </div>
         <div className="text-3xl mb-10">
-          <span className="text-green-500">Experiencia</span>
+          <span className="text-[#e5b120] font-semibold">Experiencia</span>
         </div>
         <div className="px-4">
           <ol className="relative border-s border-gray-200 dark:border-gray-700">
             <li className="mb-10 ms-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                <FaStore />
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-yellow-900">
+                <FaStore color="#e5b120" />
               </span>
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-[#30be8a]">
                 Desarrollador Ecommerce
                 {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                   Latest
                 </span> */}
               </h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                American Cotton 13th, 2022
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+                American Cotton 2023
               </time>
-              <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Get access to over 20+ pages including a dashboard layout,
-                charts, kanban board, calendar, and pre-order E-commerce &
-                Marketing pages.
-              </p>
+              <ul className="list-disc ml-4 text-gray-200">
+                <li>Diseño y desarrollo de una PWA para Fulfillment</li>
+                <li>
+                  Diseño y desarrollo de un sistema de invitaciones con
+                  integración de WhatsApp.
+                </li>
+                <li>Integración de paqueterías para ecommerce</li>
+              </ul>
             </li>
             <li className="mb-10 ms-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                <IoPeople />
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-yellow-900">
+                <IoPeople color="#e5b120" />
               </span>
-              <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-[#30be8a]">
                 Desarrollador Freelance
               </h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
                 2022
               </time>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
-              </p>
+              <ul className="list-disc ml-4 text-gray-200">
+                <li>
+                  Desarrollo y despliegue de un sistema integral de
+                  administración de clientes para "Obsession Gym".
+                </li>
+                <li>
+                  Desarrollo un sistema de gestión de pacientes y citas para un
+                  consultorio dental.
+                </li>
+              </ul>
             </li>
           </ol>
         </div>
