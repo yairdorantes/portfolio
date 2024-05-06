@@ -1,5 +1,5 @@
 import { IoMdLock } from "react-icons/io";
-import { MdPublic, MdWorkspaces } from "react-icons/md";
+import { MdWorkspaces } from "react-icons/md";
 import ffss from "../media/ss.png";
 import ss2 from "../media/ss2.png";
 import ss3 from "../media/ss3.png";

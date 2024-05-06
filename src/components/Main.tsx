@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSheetPlastic } from "react-icons/fa6";
+import pdf from "../media/cvYair.pdf";
+
 const time = 1200;
 const Main = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -86,7 +88,7 @@ const Main = () => {
               <FaGithub size={25} color="" className="" />
             </div>
           </a>
-          <a className="group" href="">
+          <a className="group" href={pdf} target="_blank">
             <div className="p-3 group-hover:border-emerald-400 group-hover:text-emerald-400 rounded-full border-2 border-slate-200 border-opacity-80 w-fit">
               <FaSheetPlastic size={25} color="" className="" />
             </div>

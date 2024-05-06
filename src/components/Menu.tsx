@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Spiral as Hamburger } from "hamburger-react";
 import { FaBriefcase, FaHome, FaUserTie } from "react-icons/fa";
 import { BiSolidBrain } from "react-icons/bi";
-import { MdConnectWithoutContact } from "react-icons/md";
 import mx from "../media/mx.png";
 const Menu = () => {
   const [isOpen, setisOpen] = useState(false);
