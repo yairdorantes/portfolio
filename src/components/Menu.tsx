@@ -5,7 +5,7 @@ import { BiSolidBrain } from "react-icons/bi";
 import { MdConnectWithoutContact } from "react-icons/md";
 import mx from "../media/mx.png";
 const Menu = () => {
-  const [isOpen, setisOpen] = useState(true);
+  const [isOpen, setisOpen] = useState(false);
   return (
     <>
       <div
@@ -25,7 +25,7 @@ const Menu = () => {
           isOpen ? "h-80 " : "h-0 border-opacity-0 "
         }   border text-white bg-black border-white rounded-full`}
       >
-        <li className="relative">
+        <li onClick={() => setisOpen(false)} className="relative">
           <span className="absolute z-50 -left-24 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
             Default
           </span>
@@ -36,17 +36,17 @@ const Menu = () => {
             <FaHome size={25} />
           </a>
         </li>
-        <li>
+        <li onClick={() => setisOpen(false)}>
           <a className="hover:text-emerald-300 transition-all" href="#skills">
             <BiSolidBrain size={25} />
           </a>
         </li>
-        <li>
+        <li onClick={() => setisOpen(false)}>
           <a className="hover:text-emerald-300 transition-all" href="#exp">
             <FaUserTie size={25} />
           </a>
         </li>
-        <li>
+        <li onClick={() => setisOpen(false)}>
           <a
             className="hover:text-emerald-300 transition-all"
             href="#portfolio"
@@ -54,10 +54,10 @@ const Menu = () => {
             <FaBriefcase size={25} />
           </a>
         </li>
-        <li>
+        {/* <li>
           <MdConnectWithoutContact size={25} />
-        </li>
-        <li>
+        </li> */}
+        <li onClick={() => setisOpen(false)}>
           <img src={mx} className="w-7" alt="" />
         </li>
       </ul>
