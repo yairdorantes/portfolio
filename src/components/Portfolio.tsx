@@ -19,7 +19,7 @@ const Portfolio = () => {
 
         <div className="flex  flex-wrap gap-5 w-full justify-center">
           <div
-            className="bg-cover rounded-2xl w-[95%] sm:min-w-96 max-w-lg h-64 bg-center "
+            className="bg-cover rounded-2xl w-[95%] sm:w-96 max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ffss})`,
             }}
@@ -28,13 +28,13 @@ const Portfolio = () => {
               <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
                 <IoMdLock />
               </div>
-              <div className="absolute bottom-2 left-2 ">
+              <div className="absolute py-1 text-sm px-3 border rounded-full bg-opacity-60 bg-black bottom-2 left-2 ">
                 PWA Fulfillment ecommerce
               </div>
             </div>
           </div>
           <div
-            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
             style={{
               backgroundImage: `url(${ss2})`,
             }}
@@ -43,13 +43,13 @@ const Portfolio = () => {
               <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
                 <IoMdLock />
               </div>
-              <div className="absolute bottom-2 left-2 ">
-                Sistema de invitaciones con integracion de WhatsApp
+              <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
+                Sistema de invitaciones
               </div>
             </div>
           </div>
           <div
-            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss3})`,
             }}
@@ -63,13 +63,13 @@ const Portfolio = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div className="absolute bottom-2 left-2 ">
+              <div className="absolute text-sm py-1 px-3 border rounded-full  bg-opacity-60 bg-black bottom-2 left-2 ">
                 App para aprendizaje de Inglés
               </div>
             </div>
           </div>
           <div
-            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss4})`,
             }}
@@ -80,13 +80,13 @@ const Portfolio = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div className="absolute bottom-2 left-2 ">
+              <div className="absolute text-sm py-1 px-3 border rounded-full bg-opacity-60 bg-black bottom-2 left-2 ">
                 App de Datos curiosos
               </div>
             </div>
           </div>
           <div
-            className="bg-cover w-[95%] sm:min-w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss5})`,
             }}
@@ -100,7 +100,9 @@ const Portfolio = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div className="absolute bottom-2 left-2 ">App del clima</div>
+              <div className="absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 ">
+                App del clima
+              </div>
             </div>
           </div>
         </div>
