@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Spiral as Hamburger } from "hamburger-react";
 import { FaBriefcase, FaHome, FaUserTie } from "react-icons/fa";
 import mx from "../media/mx.png";
 import { MdWorkspaces } from "react-icons/md";
 const Menu = () => {
   const [isOpen, setisOpen] = useState(false);
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isOpen]);
+
   return (
     <>
       <div
@@ -21,7 +29,7 @@ const Menu = () => {
       )}
       <ul
         className={`fixed w-16 flex  flex-col justify-center overflow-y-hidden  items-center  space-y-7 top-36 right-5 z-50 transition-all duration-300 ${
-          isOpen ? "h-80 " : "h-0 border-opacity-0 "
+          isOpen ? "h-80  " : "h-0 -z-10 border-opacity-0 "
         }   border text-white bg-black border-white rounded-full`}
       >
         <li onClick={() => setisOpen(false)} className="relative">

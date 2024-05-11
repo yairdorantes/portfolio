@@ -4,10 +4,17 @@ import ss2 from "../media/ss2.png";
 import ss3 from "../media/ss3.png";
 import ss4 from "../media/ss4.avif";
 import ss5 from "../media/ss5.png";
+import ss6 from "../media/ss10.jpeg";
+import ss7 from "../media/ss7.png";
+import wb from "../media/wb.jpg";
+import ss8 from "../media/ss8.png";
 import { FaBriefcase, FaGithub } from "react-icons/fa";
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="bg-black pb-10  text-white p-4">
+    <section
+      id="portfolio"
+      className="bg-black select-none pb-10  text-white p-4"
+    >
       <div className="max-w-4xl mx-auto ">
         <div className="w-fit flex gap-2 items-center  mb-10 text-sm p-2 border border-gray-600 border-opacity-80 rounded-full">
           <FaBriefcase />
@@ -45,6 +52,66 @@ const Portfolio = () => {
               </div>
               <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
                 Sistema de invitaciones
+              </div>
+            </div>
+          </div>
+          <div
+            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
+            style={{
+              backgroundImage: `url(${ss7})`,
+            }}
+          >
+            <div className="w-full relative h-full  bg-black bg-opacity-20">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <a
+                  // href="https://github.com/yairdorantes/WeatherApp"
+                  target="_blank"
+                >
+                  <IoMdLock />
+                </a>
+              </div>
+              <div className="absolute text-sm py-2 px-3 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 ">
+                Sistema integral de gestión de dietas y rutinas para gimnasio
+              </div>
+            </div>
+          </div>
+          <div
+            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
+            style={{
+              backgroundImage: `url(${wb})`,
+            }}
+          >
+            <div className="w-full relative h-full  bg-black bg-opacity-20">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <a
+                  href="https://github.com/yairdorantes/WhatsApp"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </div>
+              <div className="absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 ">
+                WhatsApp Bot + OpenAI API
+              </div>
+            </div>
+          </div>{" "}
+          <div
+            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
+            style={{
+              backgroundImage: `url(${ss6})`,
+            }}
+          >
+            <div className="w-full relative h-full  bg-black bg-opacity-20">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <a
+                  href="https://github.com/yairdorantes/WeatherApp"
+                  target="_blank"
+                >
+                  <IoMdLock />
+                </a>
+              </div>
+              <div className="absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 ">
+                Sistema de gestión citas Odontológicas
               </div>
             </div>
           </div>
@@ -102,6 +169,26 @@ const Portfolio = () => {
               </div>
               <div className="absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 ">
                 App del clima
+              </div>
+            </div>
+          </div>{" "}
+          <div
+            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
+            style={{
+              backgroundImage: `url(${ss8})`,
+            }}
+          >
+            <div className="w-full relative h-full  bg-black bg-opacity-50">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <a
+                  href="https://github.com/yairdorantes/Trivia"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </div>
+              <div className="absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 ">
+                Juego Trivia
               </div>
             </div>
           </div>

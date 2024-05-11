@@ -12,6 +12,7 @@ import sql from "../media/tech-icons/sql.png";
 import express from "../media/tech-icons/ex.svg";
 import mysql from "../media/tech-icons/database.png";
 import ts from "../media/tech-icons/ts.png";
+import api from "../media/tech-icons/api.png";
 import { MdWorkspaces } from "react-icons/md";
 const Skills = () => {
   const skills = [
@@ -71,9 +72,13 @@ const Skills = () => {
       name: "MySQL",
       img: mysql,
     },
+    {
+      name: "APIs",
+      img: api,
+    },
   ];
   return (
-    <section id="skills" className="bg-black  text-white p-4">
+    <section id="skills" className="bg-black select-none  text-white p-4">
       <div className="max-w-4xl mx-auto">
         <div className="w-fit flex gap-2 items-center  mb-10 text-sm p-2 border border-gray-600 border-opacity-80 rounded-full">
           <MdWorkspaces /> Habilidades

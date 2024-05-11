@@ -2,9 +2,10 @@ import { useEffect } from "react";
 import video from "../media/video2.mp4";
 import { useRef } from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import { FaSheetPlastic } from "react-icons/fa6";
 import pdf from "../media/cvYair.pdf";
+import { MdEmail } from "react-icons/md";
 
 const time = 1200;
 const Main = () => {
@@ -19,9 +20,9 @@ const Main = () => {
   return (
     <header
       id="home"
-      className="relative flex items-center justify-center h-screen  overflow-hidden"
+      className="relative flex items-center bg-[#1e1e1e] justify-center h-screen  overflow-hidden"
     >
-      <div className="w-full h-full z-20 bg-opacity-40  absolute top-0 bg-black "></div>
+      <div className="w-full h-full z-20 bg-opacity-40  absolute top-0 bg-black " />
       <div className="p-4 z-30 absolute top-[20%]">
         <div className=" text-white  font-semibold text-5xl">
           Hola, soy <span className="text-[#e5b120]">Yair Dorantes</span>
@@ -91,6 +92,20 @@ const Main = () => {
           <a className="group" href={pdf} target="_blank">
             <div className="p-3 group-hover:border-emerald-400 group-hover:text-emerald-400 rounded-full border-2 border-slate-200 border-opacity-80 w-fit">
               <FaSheetPlastic size={25} color="" className="" />
+            </div>
+          </a>
+          <a
+            className="group"
+            href="mailto:yaircontactos@gmail.com"
+            target="_blank"
+          >
+            <div className="p-3 group-hover:border-emerald-400 group-hover:text-emerald-400 rounded-full border-2 border-slate-200 border-opacity-80 w-fit">
+              <MdEmail size={25} color="" className="" />
+            </div>
+          </a>
+          <a className="group" href="tel:7293737947" target="_blank">
+            <div className="p-3 group-hover:border-emerald-400 group-hover:text-emerald-400 rounded-full border-2 border-slate-200 border-opacity-80 w-fit">
+              <FaPhone size={25} color="" className="" />
             </div>
           </a>
         </div>
