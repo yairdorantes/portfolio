@@ -5,9 +5,12 @@ import ss3 from "../media/ss3.png";
 import ss4 from "../media/ss4.avif";
 import ss5 from "../media/ss5.png";
 import ss6 from "../media/ss10.jpeg";
+import qrImage from "../media/qr.avif";
+import HSEFA from "../media/hubspot-integration4.png";
 import ss7 from "../media/ss7.png";
 import wb from "../media/wb.jpg";
 import ss8 from "../media/ss8.png";
+import apis from "../media/apis.webp";
 import { FaBriefcase, FaGithub } from "react-icons/fa";
 const Portfolio = () => {
   return (
@@ -31,7 +34,7 @@ const Portfolio = () => {
               backgroundImage: `url(${ffss})`,
             }}
           >
-            <div className="w-full  relative h-full backdrop-blur-md bg-black bg-opacity-40">
+            <div className="w-full  relative h-full backdrop-blur-sm bg-black bg-opacity-40">
               <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
                 <IoMdLock />
               </div>
@@ -43,10 +46,63 @@ const Portfolio = () => {
           <div
             className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
             style={{
+              backgroundImage: `url(${qrImage})`,
+            }}
+          >
+            <div className="w-full  relative h-full  bg-black bg-opacity-40">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <IoMdLock />
+              </div>
+              <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
+                Sistema de Generación y Escaneo de Códigos QR
+              </div>
+            </div>
+          </div>
+          {/* <div
+            className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
+            style={{
+              backgroundImage: `url(${HSEFA})`,
+            }}
+          >
+            <div className="w-full  relative h-full  bg-black bg-opacity-40">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <IoMdLock />
+              </div>
+              <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
+                Conexión Bidireccional de APIs entre{" "}
+                <a
+                  target="_blank"
+                  href="https://www.hubspot.es"
+                  className="underline"
+                >
+                  HubSpot
+                </a>
+                ,{" "}
+                <a
+                  target="_blank"
+                  className="underline"
+                  href="https://www.edvisor.io"
+                >
+                  Edvisor
+                </a>{" "}
+                y{" "}
+                <a
+                  target="_blank"
+                  className="underline"
+                  href="https://callitonce.com/"
+                >
+                  CIO
+                </a>
+              </div>
+            </div>
+          </div> */}
+          <div
+            className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
+            style={{
               backgroundImage: `url(${ss2})`,
             }}
           >
-            <div className="w-full backdrop-blur-md relative h-full  bg-black bg-opacity-40">
+            <div className="w-full backdrop-blur-sm relative h-full  bg-black bg-opacity-40">
               <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
                 <IoMdLock />
               </div>
@@ -54,8 +110,24 @@ const Portfolio = () => {
                 Sistema de invitaciones
               </div>
             </div>
-          </div>
+          </div>{" "}
           <div
+            className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
+            style={{
+              backgroundImage: `url(${apis})`,
+            }}
+          >
+            <div className="w-full  relative h-full  bg-black bg-opacity-40">
+              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+                <IoMdLock />
+              </div>
+              <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
+                Desarrollo, mantenimiento e implementación de APIs integradas
+                con diversos sistemas financieros.
+              </div>
+            </div>
+          </div>
+          {/* <div
             className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss7})`,
@@ -74,8 +146,8 @@ const Portfolio = () => {
                 Sistema integral de gestión de dietas y rutinas para gimnasio
               </div>
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${wb})`,
@@ -94,7 +166,7 @@ const Portfolio = () => {
                 WhatsApp Bot + OpenAI API
               </div>
             </div>
-          </div>{" "}
+          </div> */}
           <div
             className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
@@ -115,7 +187,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss3})`,
@@ -134,8 +206,8 @@ const Portfolio = () => {
                 App para aprendizaje de Inglés
               </div>
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss4})`,
@@ -151,8 +223,8 @@ const Portfolio = () => {
                 App de Datos curiosos
               </div>
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss5})`,
@@ -171,8 +243,8 @@ const Portfolio = () => {
                 App del clima
               </div>
             </div>
-          </div>{" "}
-          <div
+          </div> */}
+          {/* <div
             className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
             style={{
               backgroundImage: `url(${ss8})`,
@@ -191,7 +263,7 @@ const Portfolio = () => {
                 Juego Trivia
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <video controls src={soyeon}></video> */}

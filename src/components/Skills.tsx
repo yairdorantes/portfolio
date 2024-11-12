@@ -13,6 +13,7 @@ import express from "../media/tech-icons/ex.svg";
 import mysql from "../media/tech-icons/database.png";
 import ts from "../media/tech-icons/ts.png";
 import api from "../media/tech-icons/api.png";
+import docker from "../media/tech-icons/docker.png";
 import { MdWorkspaces } from "react-icons/md";
 const Skills = () => {
   const skills = [
@@ -75,6 +76,10 @@ const Skills = () => {
     {
       name: "APIs",
       img: api,
+    },
+    {
+      name: "Docker",
+      img: docker,
     },
   ];
   return (
