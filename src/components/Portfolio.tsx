@@ -10,50 +10,53 @@ import HSEFA from "../media/hubspot-integration4.png";
 import ss7 from "../media/ss7.png";
 import wb from "../media/wb.jpg";
 import ss8 from "../media/ss8.png";
+import ss9 from "../media/ss9.png";
+import ss10 from "../media/ss10.png";
 import apis from "../media/apis.webp";
 import { FaBriefcase, FaGithub } from "react-icons/fa";
+import { FiGlobe } from "react-icons/fi";
 const Portfolio = () => {
   return (
     <section
-      id="portfolio"
-      className="bg-black select-none pb-10  text-white p-4"
+      id='portfolio'
+      className='bg-black select-none pb-10  text-white p-4'
     >
-      <div className="max-w-4xl mx-auto ">
-        <div className="w-fit flex gap-2 items-center  mb-10 text-sm p-2 border border-gray-600 border-opacity-80 rounded-full">
+      <div className='max-w-4xl mx-auto '>
+        <div className='w-fit flex gap-2 items-center  mb-10 text-sm p-2 border border-gray-600 border-opacity-80 rounded-full'>
           <FaBriefcase />
           Portafolio
         </div>
-        <div className="text-3xl mb-10">
-          <span className="text-green-500">Portafolio</span>
+        <div className='text-3xl mb-10'>
+          <span className='text-green-500'>Portafolio</span>
         </div>
 
-        <div className="flex  flex-wrap gap-5 w-full justify-center">
+        <div className='flex  flex-wrap gap-5 w-full justify-center'>
           <div
-            className="bg-cover rounded-2xl w-[95%] sm:w-96 max-w-lg h-64 bg-center "
+            className='bg-cover rounded-2xl w-[95%] sm:w-96 max-w-lg h-64 bg-center '
             style={{
               backgroundImage: `url(${ffss})`,
             }}
           >
-            <div className="w-full  relative h-full backdrop-blur-sm bg-black bg-opacity-40">
-              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+            <div className='w-full  relative h-full backdrop-blur-sm bg-black bg-opacity-40'>
+              <div className='p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit'>
                 <IoMdLock />
               </div>
-              <div className="absolute py-1 text-sm px-3 border rounded-full bg-opacity-60 bg-black bottom-2 left-2 ">
+              <div className='absolute py-1 text-sm px-3 border rounded-full bg-opacity-60 bg-black bottom-2 left-2 '>
                 PWA Fulfillment ecommerce
               </div>
             </div>
           </div>
           <div
-            className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
+            className='bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center '
             style={{
               backgroundImage: `url(${qrImage})`,
             }}
           >
-            <div className="w-full  relative h-full  bg-black bg-opacity-40">
-              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+            <div className='w-full  relative h-full  bg-black bg-opacity-40'>
+              <div className='p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit'>
                 <IoMdLock />
               </div>
-              <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
+              <div className='absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 '>
                 Sistema de Generación y Escaneo de Códigos QR
               </div>
             </div>
@@ -97,31 +100,31 @@ const Portfolio = () => {
             </div>
           </div> */}
           <div
-            className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
+            className='bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center '
             style={{
               backgroundImage: `url(${ss2})`,
             }}
           >
-            <div className="w-full backdrop-blur-sm relative h-full  bg-black bg-opacity-40">
-              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+            <div className='w-full backdrop-blur-sm relative h-full  bg-black bg-opacity-40'>
+              <div className='p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit'>
                 <IoMdLock />
               </div>
-              <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
+              <div className='absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 '>
                 Sistema de invitaciones
               </div>
             </div>
           </div>{" "}
           <div
-            className="bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center "
+            className='bg-cover w-[95%]  rounded-2xl sm:w-96 h-64 bg-center '
             style={{
               backgroundImage: `url(${apis})`,
             }}
           >
-            <div className="w-full  relative h-full  bg-black bg-opacity-40">
-              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+            <div className='w-full  relative h-full  bg-black bg-opacity-40'>
+              <div className='p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit'>
                 <IoMdLock />
               </div>
-              <div className="absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 ">
+              <div className='absolute  text-sm py-1 px-2  border rounded-full  bg-black bg-opacity-60 bottom-2 left-2 '>
                 Desarrollo, mantenimiento e implementación de APIs integradas
                 con diversos sistemas financieros.
               </div>
@@ -168,22 +171,59 @@ const Portfolio = () => {
             </div>
           </div> */}
           <div
-            className="bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center "
+            className='bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center '
             style={{
               backgroundImage: `url(${ss6})`,
             }}
           >
-            <div className="w-full relative h-full  bg-black bg-opacity-20">
-              <div className="p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit">
+            <div className='w-full relative h-full  bg-black bg-opacity-20'>
+              <div className='p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit'>
                 <a
-                  href="https://github.com/yairdorantes/WeatherApp"
-                  target="_blank"
+                // href='https://github.com/yairdorantes/WeatherApp'
+                // target='_blank'
                 >
                   <IoMdLock />
                 </a>
               </div>
-              <div className="absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 ">
+              <div className='absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 '>
                 Sistema de gestión citas Odontológicas
+              </div>
+            </div>
+          </div>
+          <div
+            className='bg-cover w-[95%] sm:w-96 rounded-2xl max-w-lg h-64 bg-center'
+            style={{
+              backgroundImage: `url(${ss9})`,
+            }}
+          >
+            <div className='w-full relative h-full  bg-black bg-opacity-20'>
+              <a
+                href='https://github.com/yairdorantes/expenses'
+                target='_blank'
+              >
+                <div className='p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit'>
+                  <FiGlobe />
+                </div>
+              </a>
+              <div className='absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 '>
+                App para control de gastos personales
+              </div>
+            </div>
+          </div>
+          <div
+            className='bg-contain bg-center bg-no-repeat w-[95%] sm:w-96 rounded-2xl max-w-lg h-64  '
+            style={{
+              backgroundImage: `url(${ss10})`,
+            }}
+          >
+            <div className='w-full relative h-full  bg-black bg-opacity-20'>
+              <a href='https://yairdorantes.github.io/Trivia/' target='_blank'>
+                <div className='p-2 absolute left-4 top-4 rounded-md bg-white text-black w-fit'>
+                  <FiGlobe />
+                </div>
+              </a>
+              <div className='absolute text-sm py-1 px-2 bg-black bg-opacity-60  border rounded-full  bottom-2 left-2 '>
+                Trivia Game
               </div>
             </div>
           </div>
